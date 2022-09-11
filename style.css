@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500;800&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+.navbar-bg-color {
+    background: #3AC0E1;
+}
+
+.main {
+    background: url(./img/main-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.main-title {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.main-text {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.cards-image {
+    width: 137px;
+    height: 137px;
+    top: -75px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.card-games {
+    background: #95CC47;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.card-food {
+    background: #95CC47;
+    border-radius: 25px;
+    color: #fff;
+    background: #FFAF40;
+}
+
+.card-work {
+    border-radius: 25px;
+    background: #BB6BD9;
+    color: #fff;
+
+}
+
+.img-kind {
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 40%;
+    height: 105%;
+    object-fit: cover;
+}
+
+.about-kindergarden {
+    margin-bottom: 100px;
+}
+
+.about-title {
+    color: #56509F;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+
+.title-line {
+    border-top: 1px solid #FF6682;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 67px;
+}
+
+.gallery-title {
+    color: #56509F;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.gallery-buttons {
+    max-width: 586px;
+}
+
+.btn-outline-primary {
+    width: 139px;
+    height: 38px;
+    --bs-btn-color: #56509F;
+    --bs-btn-border-color: #56509F;
+    --bs-btn-hover-color: #FF6682;
+    --bs-btn-hover-bg: #ffffff;
+    --bs-btn-hover-border-color: #FF6682;
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #FF6682;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #FF6682;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+}
+
+.gallery-main {
+    background: url(./img/gallery-bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.news-title-line {
+    border-top: 1px solid #64BEE6;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 67px;
+}
+
+.news-title {
+    color: #033B62;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.card-news {
+    border: none;
+}
+
+.card-news .card-body {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 0;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.notification-news {
+    top: 18px;
+    left: 16px;
+    color: white;
+    background: #FFAF40;
+}
+
+.bg-color-footer {
+    background: #93D9EA;
+}
